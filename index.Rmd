@@ -33,11 +33,15 @@ runGitHub("genetica-quantitativa", "Curso-Genevol", subdir = "Eq-de-Lande")
 runGitHub("genetica-quantitativa", "Curso-Genevol", subdir = "Superficie-Adaptativa")
 ```
   
+## Genômica populacional
+
+1. [Genômica Populacional em Humanos](https://github.com/Curso-Genevol/genomica-populacional)
+  
 # Teóricas - Slides
 
 1. [EvoDevo](slides/evodevo_bruno_2020.pdf) - Bruno Genevcius
 1. [Evolução Fenotípica](slides/evolucao_fenotipica_curso_genevol_2020.pptx) - Monique Simon
-
+1. [Genômica Populacional](slides/Genomica_2020.pdf)
 
 
 ## Introdução ao R
