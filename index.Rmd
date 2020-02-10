@@ -33,7 +33,7 @@ runGitHub("genetica-quantitativa", "Curso-Genevol", subdir = "Eq-de-Lande")
 runGitHub("genetica-quantitativa", "Curso-Genevol", subdir = "Superficie-Adaptativa")
 ```
   
-# Slides aula Teóricas
+# Teóricas - Slides
 
 1. [Evolução Fenotípica](slides/evolucao_fenotipica_curso_genevol_2020.pptx) - Monique Simon
 
