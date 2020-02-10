@@ -1,0 +1,74 @@
+---
+title: "Modulo de Genética, Evolução e Desenvolvimento"
+output:
+  html_document:
+    number_sections: false
+    toc: true
+    theme: yeti
+    toc_depth: 3
+    toc_float: 
+      collapsed: false
+      smooth_scroll: false
+---
+
+![](figures/banner.png)
+
+# Práticas
+
+## Genética quantitativa
+
+1. [A Equação de Lande](https://curso-genevol.shinyapps.io/eq-de-lande/)
+
+1. [Integração e Superfícies Adaptativas](https://curso-genevol.shinyapps.io/superficie-adaptativa/)
+
+### Para rodar as práticas no seu computador:
+
+```{r eval=FALSE}
+if(!require(shiny)){install.packages("shiny"); library(shiny)}
+
+#A Equação de Lande
+runGitHub("genetica-quantitativa", "Curso-Genevol", subdir = "Eq-de-Lande")
+
+# Integração e Superfícies Adaptativas
+runGitHub("genetica-quantitativa", "Curso-Genevol", subdir = "Superficie-Adaptativa")
+```
+  
+# Slides aula Teóricas
+
+1. [Evolução Fenotípica](slides/evolucao_fenotipica_curso_genevol_2020.pptx) - Monique Simon
+
+
+## Introdução ao R
+
+Inicialmente, você deve instalar o **R** no seu computador. 
+Você pode encontrá-lo no sítio <http://www.r-project.org>.
+Neste sítio existem instruções (em inglês) para instalá-lo em vários sistemas operacionais diferentes; versões para Windows, Mac OS e Linux estão disponíveis.
+Em suma, vá a um dos espelhos do *Comprehensive R Archive Network* (CRAN), por exemplo <http://brieger.esalq.usp.br/CRAN/>, e siga os links de download e instale o pacote referente ao seu sistema operacional.
+Usuários de Linux provavelmente possuem um gerenciador de pacotes instalado em seu sistema, como por
+exemplo *apt* ou *dnf*, que podem também ser utilizados para a instalação.
+
+A instalação básica do R no Windows ou MAC OS providencia uma interface básica para execução de rotinas; no entanto, recomendamos a instalação do **R Studio**, uma interface bastante intuitiva para
+utilizarmos o R. 
+Esta interface pode ser encontrada no sítio <http://www.rstudio.com> para Windows, MAC OS ou Linux.
+
+O curso foi pensado para pessoas que não são familiarizadas com o R; não esperamos que você seja, a princípio, capaz de escrever rotinas na linguagem. 
+Os tutoriais propostos se baseiam em rotinas prontas, uma para cada aula, de modo que estes exercícios consistem em executar estas rotinas, observar e entender o que foi feito, e responder algumas perguntas. 
+Assim, estes exercícios servem como ponto de partida para você começar a entender a linguagem. 
+Durante o curso, nós vamos introduzir alguns conceitos que são cruciais para o entendimento das rotinas que estamos disponibilizando aqui.
+
+Se você quiser começar a entender a linguagem antes do curso iniciar, recomendamos o sítio <http://ecologia.ib.usp.br/bie5782/>, da disciplina básica de R oferecida pelo Departamento de Ecologia do IB-USP. 
+O link "Atividades Preparatórias" oferece um introdução da linguagem.
+
+
+# Tutoriais Opcionais
+
+**Tutorial Opcional 1**: [*Introdução ao R*](https://diogro.github.io/ModCurso/Tutoriais/inicio.html)
+
+**Tutorial Opcional 2**: [*Básico de Álgebra Linear*](https://diogro.github.io/ModCurso/Tutoriais/algelin.html)
+
+**Tutorial Opcional 3**: [*Estimando matrizes e componentes principais*](https://diogro.github.io/ModCurso/Tutoriais/matrizes.html)
+
+
+
+
+
