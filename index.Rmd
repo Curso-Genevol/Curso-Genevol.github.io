@@ -26,7 +26,7 @@ output:
 ```{r eval=FALSE}
 if(!require(shiny)){install.packages("shiny"); library(shiny)}
 
-#A Equação de Lande
+# A Equação de Lande
 runGitHub("genetica-quantitativa", "Curso-Genevol", subdir = "Eq-de-Lande")
 
 # Integração e Superfícies Adaptativas
